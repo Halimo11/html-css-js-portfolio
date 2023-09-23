@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Halimo Ali</div>
+    
+
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contacts">Contacts</a></li>  
+            
+        </ul>
+    </div>
+</nav>
+<nav id="h-nav">
+    <div class="logo">Halimo Ali</div>
+    <div class="h-menu">
+        <div class="h-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+        <div class="menu-links">
+        <li><a href="#about" onclick="togglemenu()">About</a></li>
+            <li><a href="#Experience" onclick="togglemenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#Contacts" onclick="togglemenu()">Contacts</a></li>
+            </div>
+
+    </div>
+</nav>
+<section id="profile">
+    <div class="section_pic-container">
+        <img src="./me.jpeg" alt="Halimo Ali Profile pic"/>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
